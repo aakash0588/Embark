@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-18T18:59:11 IST" name="EmbarkTestSuite" finished-at="2025-04-18T19:00:52 IST" duration-ms="100309">
+    <groups>
+    </groups>
+    <test started-at="2025-04-18T18:59:11 IST" name="EmbarkAutomationTest" finished-at="2025-04-18T19:00:52 IST" duration-ms="100309">
+      <class name="tests.EmbarkTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.EmbarkTest@24faea88]" started-at="2025-04-18T18:59:11 IST" name="setupReport" finished-at="2025-04-18T18:59:11 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.EmbarkTest@24faea88]" started-at="2025-04-18T18:59:11 IST" name="setUp" finished-at="2025-04-18T18:59:15 IST" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="embarkFlowTest()[pri:0, instance:tests.EmbarkTest@24faea88]" started-at="2025-04-18T18:59:15 IST" name="embarkFlowTest" finished-at="2025-04-18T19:00:51 IST" duration-ms="95827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- embarkFlowTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:tests.EmbarkTest@24faea88]" started-at="2025-04-18T19:00:51 IST" name="logTestResult" finished-at="2025-04-18T19:00:51 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=embarkFlowTest status=SUCCESS method=EmbarkTest.embarkFlowTest()[pri:0, instance:tests.EmbarkTest@24faea88] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmbarkTest@24faea88]" started-at="2025-04-18T19:00:51 IST" name="tearDown" finished-at="2025-04-18T19:00:52 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.EmbarkTest@24faea88]" started-at="2025-04-18T19:00:52 IST" name="flushReport" finished-at="2025-04-18T19:00:52 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- tests.EmbarkTest -->
+    </test> <!-- EmbarkAutomationTest -->
+  </suite> <!-- EmbarkTestSuite -->
+</testng-results>

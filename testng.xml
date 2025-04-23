@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EmbarkTestSuite">
+    <test name="EmbarkAutomationTest">
+        <classes>
+            <class name="tests.EmbarkTest" />
+        </classes>
+    </test>
+</suite>
